@@ -1,0 +1,10 @@
+
+employee_file = open("employees.txt", "r")          # argument "w".  "r+" means w and r
+
+# print(employee_file.readable())
+print(employee_file.readline())
+print(employee_file.readline())
+print(employee_file.readline())
+print(employee_file.readlines())        # read in array
+employee_file.close()
+
